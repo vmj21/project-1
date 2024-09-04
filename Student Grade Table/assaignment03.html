@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Student	Grades	Table</title>
+    <link rel="stylesheet" href="assaignment-03.css">
+</head>
+<body>
+    <h3>Student	Grades	Table</h3> 
+
+    <table id="gradesTable" bgcolor="black" width="800">
+      <tr bgcolor = "grey"> 
+        <th width ="100">Student Name</th>
+        <th width ="100">  Student ID </th>
+        <th width ="100"> Assiagnment 1 </th>
+        <th width ="100"> Assiagnment 2 </th>
+        <th width ="100"> Assiagnment 3 </th>
+        <th width ="100"> Assiagnment 4 </th>
+        <th width ="100"> Assiagnment 5 </th>
+        <th width ="100" id="averageHeader">Average (%)</th>
+
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+         <td>Jasmine Carter </td>
+         <td> 123456789</td>
+         <td contenteditable="true"> 80 </td>
+         <td contenteditable="true"> 90 </td>
+         <td contenteditable="true"> 70 </td>
+         <td contenteditable="true"> 75 </td>
+         <td contenteditable="true"> 78 </td>
+         <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+         <td>Ethan Ramirez</td>
+         <td>987654321</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+         <td>Olivia Patel</td>
+         <td>2468097531</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td contenteditable="true">-</td>
+         <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Mason Thompson</td>
+            <td>1357908642 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Ava Nguyen</td>
+            <td>2104396587 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Liam Wilson</td>
+            <td>4059687123 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Sophia Garcia</td>
+            <td>1029384756 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Noah Kim</td>
+            <td>0192837465 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+         <tr bgcolor="lightgrey" align="center">
+            <td>Isabella Martinez</td>
+            <td>3216540987 </td>
+            <td contenteditable="true"> 30 </td>
+            <td contenteditable="true"> 30 </td>
+            <td contenteditable="true"> 2 </td>
+            <td contenteditable="true"> 45 </td>
+            <td contenteditable="true"> 7 </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+       <tr bgcolor="lightgrey" align="center">
+            <td>Lucas Robinson</td>
+            <td>1357908642 </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td contenteditable="true"> - </td>
+            <td data-representation="percent"></td>
+
+         </tr>
+
+         <button class="styled-button" id="insertRowBtn">Insert New Row</button>
+         
+         <button class="styled-button" id="insertColumnBtn">Insert New Column</button>
+    
+        <button class="styled-button" id="retrieveDataBtn">Retrieve Previous Data</button>
+
+        <button class="styled-button" id="saveDataBtn">Save Data</button>
+
+        <button class="styled-button" id="deleteRowBtn">Delete Selected Row</button>
+
+        <button class="styled-button" id="deleteColumnBtn">Delete Selected Column</button>
+
+
+
+
+
+    </table>
+    <div id="unsubmittedCount"></div>
+
+    <script src="assaignment-03.js"></script>
+</body>
+</html>
